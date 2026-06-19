@@ -9,6 +9,10 @@ public class MultiBanditSolver {
 	private double[] wins;
 	private double epsilon = 0.0;
 	
+	public int[] getCounts() {
+		return counts;
+	}
+
 	public MultiBanditSolver(MultiBandit bandits) {
 		this.bandits = bandits;
 		
